@@ -19,11 +19,7 @@ addEdge(mat,0,1);
 addEdge(mat,0,2);
 addEdge(mat,1,2);
 addEdge(mat,2,3);
-int[][] matrix={{0,1,0,0},
-                {1,0,1,0},
-			    {0,1,0,1},
-			    {0,0,1,0}};
-                System.out.println("Adjacency Matrix Representation");
-			    displayMatrix(mat);
+System.out.println("Adjacency Matrix Representation");
+	displayMatrix(mat);
 }
 }			 
